@@ -1,0 +1,127 @@
+body{
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    background: #000000;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    font-family: Arial, Helvetica, sans-serif,system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue';
+}
+
+.container{
+    border: solid #1F2937 2px;
+    padding: 20px 40px;
+    background: #1F2937;
+    
+}
+
+h1{
+    color: var(--white, #FFF);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px; 
+    letter-spacing: -1px;
+}
+
+
+
+.title-style{
+    color: #4382ff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+label{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.setting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+h2{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+p{
+    width: 372px;
+    color: var(--Medium-grey, #D5D4D8);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+   
+}
+
+button{
+    color: #FFF;
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    background: #4382ff;
+    margin-top: 5px;
+}
+
+button:hover{
+    background: #416abb;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 350px; 
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background: #1c232e;
+    width: 200px;
+}
+
+.password{
+    font-size: 15px;
+    color:#4382ff;
+}
+
+.copy-btn{
+    border-radius: 10px;
+    
+}
+
+footer{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a{
+    color: #416abb;
+}
